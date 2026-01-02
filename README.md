@@ -167,7 +167,7 @@ Optimize existing WiFi networks. Compare before/after measurements, adjust AP pl
 
 ## Building from Source
 
-WifiSurvey source code is available in the [cosmicbytez-ops-toolkit](https://github.com/azullus/cosmicbytez-ops-toolkit) repository.
+WifiSurvey source code is available in this repository. Also available in the [cosmicbytez-ops-toolkit](https://github.com/azullus/cosmicbytez-ops-toolkit) monorepo.
 
 ### Prerequisites
 - .NET 8.0 SDK
@@ -176,9 +176,9 @@ WifiSurvey source code is available in the [cosmicbytez-ops-toolkit](https://git
 
 ### Build Commands
 ```bash
-# Clone the toolkit repository
-git clone https://github.com/azullus/cosmicbytez-ops-toolkit.git
-cd cosmicbytez-ops-toolkit/tools/WifiSurvey
+# Clone this repository
+git clone https://github.com/azullus/WifiSurvey.git
+cd WifiSurvey
 
 # Restore dependencies
 dotnet restore WifiSurvey.csproj
